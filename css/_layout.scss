@@ -1,0 +1,171 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logo img{
+    display: block;
+    height: 40px;
+    width: 100%;
+}
+.dropdown{
+    display: none;
+}
+.header ul{
+    display: flex;
+    li{
+        margin-right: 60px;
+        padding-top: 5px;
+    }
+    a{
+        color: #3F5D45;
+        text-decoration: none;
+    }
+    img{
+        display: block;
+    }
+}
+.footerbox{
+    width: 1024px;
+    margin: 0 auto;
+}
+.mail{
+    background-color: #3F5D45;
+    display: flex;
+    justify-content: space-around;
+}
+.mail-logo{
+    display: flex;
+    align-items: center;
+    img{
+        width: 40px;
+        height: 40px;
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+    p{
+        color: #EAF0ED;
+        font-size: 24px;
+        margin-left: 20px;
+        margin-top: 42px;
+        padding-bottom: 42px;
+    }
+}
+.mail-search{
+    display: flex;
+    padding: 30px 0;
+    position: relative;
+    width: 30%;
+}
+.mail-icon{
+    position: absolute;
+    top: 46px;
+    left: 20px;
+    background-color: #eaf0ed;
+}
+button{
+    background:#FFE180;
+    border: none;
+    cursor: pointer;
+    padding: 16px 20px;
+}
+.email{
+    background-color: #EAF0ED;
+    border: none;
+    width: 100%;
+    padding: 16px 0;
+}
+.footer{
+    background:#EAF0ED;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 38px;
+}
+.sweetaste{
+    height: 26px;
+    max-width: auto;
+}
+.information p{
+    color: #3F5D45;
+    line-height: 24px;
+    margin-top: 115px;
+}
+.icon{
+    margin: 30px 0;
+    height: 32px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    color:#3F5D45;
+    font-family:  Times;
+
+}
+.vertical{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
+.copyright{
+    margin-top: 50px;
+}
+
+/*媒體查詢*/
+/*max-width:992px*/
+
+@media(max-width:992px){
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .dropdown{
+        display: block;
+    }
+    .header li{
+        display: none;
+    }
+    .footerbox{
+        width: 100%;
+    }
+    .mail{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mail-search{
+        width: 80%;
+    }
+    
+    
+}
+
+/*max-width:576px*/
+@media(max-width:576px){
+    .main{
+        flex-wrap: wrap;
+    }
+    .list li a{
+        padding: 16px 0;
+    }
+    .footer{
+        flex-direction: column;
+        padding-left: 10%;
+    }
+    .vertical{
+        display: none;
+    }
+    .copyright{
+        margin-bottom:50px;
+    }
+   
+}

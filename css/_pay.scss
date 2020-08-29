@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+.banner-pay {
+    margin: 0 5%;
+    margin-bottom: 60px;
+    position: relative;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    h1{
+        font-size: 40px;
+        position: absolute;
+        top: 35%;
+        left: 42%;
+        color: #3F5D45;
+        font-weight: bold;
+    }
+    button{
+        position: absolute;
+        top: 50%;
+        left: 33%;
+        color: #3F5D45;
+        font-size: 24px;
+        padding: 17px 102px;
+    }
+    .line-l{
+        position: absolute;
+        top:26.5%;
+        left: 44.5%;
+        background-color: #3F5D45;
+        height: 2px;
+        width: 51px;
+    }
+    .line-r{
+        position: absolute;
+        top:26.5%;
+        left: 52%;
+        background-color: #3F5D45;
+        height: 2px;
+        width: 51px;
+    }
+    .course{
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        width: 190px;
+        display: flex;
+        justify-content: space-around;
+        .material-icons{
+            font-family: Material Icons;
+            color:#3F5D45;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header" data-aos="fade-right">
+            <a href="#" class="dropdown">
+                <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/dehaze-24px.png?raw=true" alt="">
+            </a>
+            <div class="logo">
+                <a href="index.html">
+                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/a3ed9441c2522e2b8edb35a9847121eb3e6af16e/student-week1/logo-all-dark.svg" alt="">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="#">甜點</a></li>
+                <li><a href="#">登入</a></li>
+                <a href="#">
+                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true" alt="">
+                </a>
+            </ul>
+        </div>
+        <div class="banner-pay" data-aos="fade-right">
+            <img src="https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c5a2cf31c693f5c15fb08135bf1adf2&auto=format&fit=crop&w=800&q=60" alt="">
+            <div class="line-l"></div>
+            <div class="line-r"></div>
+            <div class="course">
+                <span class="material-icons">
+                    check_circle
+                </span>
+                <span class="material-icons">
+                    check_circle
+                </span>
+                <span class="material-icons">
+                    check_circle
+                </span>
+            </div>
+                <h1>付款成功</h1>
+                <button type="button" data-aos="fade-up">繼續逛逛</button>
+        </div>
+
+    </div>
+    <div class="footerbox">
+        <div class="mail" data-aos="fade-right">
+            <div class="mail-logo">
+                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-light.svg" alt="">
+                <p>訂閱你我的甜蜜郵件</p>
+            </div>
+                <form class="mail-search" action="#">
+                    <input type="text" class="email">
+                    <img class="mail-icon" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true" alt="">
+                    <button>
+                        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_forward-24px.png?raw=true" alt="">
+                    </button>
+                </form>
+        </div>    
+        <div class="footer" data-aos="fade-right">
+            <div class="information">
+                <img class="sweetaste" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logotype-sm-dark.svg" alt="">
+                <p>
+                    07-1234-5678
+                    <br>sweetaste@email.com
+                    <br>800 高雄市新興區幸福路 520 號
+                </p>
+                <img class="icon" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/ic-line%40.svg" alt="">
+                <img class="icon" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/ic-facebook.svg" alt="">
+            </div>
+            <div class="text">
+                <p class="vertical">
+                    今天是個——
+                <br>吃甜點的好日子
+                </p>
+                <p class="copyright">
+                    © 2018 Sweetaste* All Rights Reserved
+                </p>
+            </div>
+        </div>       
+    </div>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+     AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 600, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: true, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+    </script>
+</body>
+</html>
